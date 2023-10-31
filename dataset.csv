@@ -1,0 +1,4001 @@
+text
+"### System:
+Windows
+
+### Human:
+Open my files
+
+### Assistant:
+start explorer.exe"
+"### System:
+Linux
+
+### Human:
+Tell me what's your name
+
+### Assistant:
+My name is Graph"
+"### System:
+Linux
+
+### Human:
+I'm bored.
+
+### Assistant:
+google-chrome 'https://www.google.com/search?q=games'"
+"### System:
+Windows
+
+### Human:
+Browse the web
+
+### Assistant:
+start iexplore.exe"
+"### System:
+Linux
+
+### Human:
+Play music
+
+### Assistant:
+rhythmbox"
+"### System:
+Windows
+
+### Human:
+Show me my photos
+
+### Assistant:
+start %userprofile%\Pictures"
+"### System:
+Linux
+
+### Human:
+Open my documents
+
+### Assistant:
+xdg-open ~/Documents"
+"### System:
+Windows
+
+### Human:
+I want to write a note
+
+### Assistant:
+start notepad.exe"
+"### System:
+Linux
+
+### Human:
+Show me the calendar
+
+### Assistant:
+gnome-calendar"
+"### System:
+Windows
+
+### Human:
+Take me to control panel
+
+### Assistant:
+start control"
+"### System:
+Linux
+
+### Human:
+What's the time?
+
+### Assistant:
+date '+%T'"
+"### System:
+Windows
+
+### Human:
+Open calculator
+
+### Assistant:
+calc.exe"
+"### System:
+Linux
+
+### Human:
+Search for files
+
+### Assistant:
+nautilus --search"
+"### System:
+Windows
+
+### Human:
+Show network status
+
+### Assistant:
+ncpa.cpl"
+"### System:
+Linux
+
+### Human:
+Play a video
+
+### Assistant:
+vlc"
+"### System:
+Windows
+
+### Human:
+Show system information
+
+### Assistant:
+msinfo32.exe"
+"### System:
+Linux
+
+### Human:
+What's the weather today?
+
+### Assistant:
+curl wttr.in"
+"### System:
+Windows
+
+### Human:
+I want to draw something
+
+### Assistant:
+mspaint.exe"
+"### System:
+Linux
+
+### Human:
+Edit a photo
+
+### Assistant:
+gimp"
+"### System:
+Windows
+
+### Human:
+Where are my downloads?
+
+### Assistant:
+start %userprofile%\Downloads"
+"### System:
+Linux
+
+### Human:
+I need to code
+
+### Assistant:
+code"
+"### System:
+Windows
+
+### Human:
+Record my screen
+
+### Assistant:
+psr.exe"
+"### System:
+Linux
+
+### Human:
+Open terminal
+
+### Assistant:
+gnome-terminal"
+"### System:
+Windows
+
+### Human:
+I want to edit a video
+
+### Assistant:
+start movie maker"
+"### System:
+Linux
+
+### Human:
+How much space is left?
+
+### Assistant:
+df -h"
+"### System:
+Windows
+
+### Human:
+Run diagnostics
+
+### Assistant:
+msdt.exe"
+"### System:
+Linux
+
+### Human:
+Update my system
+
+### Assistant:
+sudo apt update && sudo apt upgrade"
+"### System:
+Windows
+
+### Human:
+Turn off computer
+
+### Assistant:
+shutdown -s -t 0"
+"### System:
+Linux
+
+### Human:
+Reboot my system
+
+### Assistant:
+sudo reboot"
+"### System:
+Windows
+
+### Human:
+Check for updates
+
+### Assistant:
+ms-settings:windowsupdate"
+"### System:
+Linux
+
+### Human:
+I need a text editor
+
+### Assistant:
+gedit"
+"### System:
+Windows
+
+### Human:
+Defragment my disk
+
+### Assistant:
+dfrgui.exe"
+"### System:
+Linux
+
+### Human:
+I want to browse the web
+
+### Assistant:
+firefox"
+"### System:
+Windows
+
+### Human:
+Adjust my microphone
+
+### Assistant:
+mmsys.cpl sounds"
+"### System:
+Linux
+
+### Human:
+Configure display settings
+
+### Assistant:
+gnome-control-center display"
+"### System:
+Windows
+
+### Human:
+Change my wallpaper
+
+### Assistant:
+control /name Microsoft.Personalization /page pageWallpaper"
+"### System:
+Linux
+
+### Human:
+Connect to a new WiFi
+
+### Assistant:
+nm-connection-editor"
+"### System:
+Windows
+
+### Human:
+I want to check firewall
+
+### Assistant:
+firewall.cpl"
+"### System:
+Linux
+
+### Human:
+Lock my screen
+
+### Assistant:
+gnome-screensaver-command -l"
+"### System:
+Windows
+
+### Human:
+Open task manager
+
+### Assistant:
+taskmgr.exe"
+"### System:
+macOS
+
+### Human:
+Open Safari
+
+### Assistant:
+open -a Safari"
+"### System:
+macOS
+
+### Human:
+Check for software updates
+
+### Assistant:
+softwareupdate --list"
+"### System:
+macOS
+
+### Human:
+Open my downloads folder
+
+### Assistant:
+open ~/Downloads"
+"### System:
+macOS
+
+### Human:
+How much disk space do I have left?
+
+### Assistant:
+df -h"
+"### System:
+macOS
+
+### Human:
+Open terminal
+
+### Assistant:
+open -a Terminal"
+"### System:
+macOS
+
+### Human:
+Play music
+
+### Assistant:
+open -a Music"
+"### System:
+macOS
+
+### Human:
+Take a screenshot
+
+### Assistant:
+screencapture -iW ~/Desktop/screenshot.png"
+"### System:
+macOS
+
+### Human:
+Show me the calendar
+
+### Assistant:
+open -a Calendar"
+"### System:
+macOS
+
+### Human:
+Change my desktop wallpaper
+
+### Assistant:
+osascript -e 'tell application ""Finder"" to set desktop picture to POSIX file ""/path/to/your/wallpaper.jpg""'"
+"### System:
+macOS
+
+### Human:
+I want to watch a movie
+
+### Assistant:
+open -a QuickTime Player"
+"### System:
+macOS
+
+### Human:
+Adjust display settings
+
+### Assistant:
+open /System/Library/PreferencePanes/Displays.prefPane"
+"### System:
+macOS
+
+### Human:
+Show me my recent files
+
+### Assistant:
+open -a Finder && osascript -e 'tell application ""Finder"" to open folder ""Recents""'"
+"### System:
+macOS
+
+### Human:
+Lock my screen
+
+### Assistant:
+pmset displaysleepnow"
+"### System:
+macOS
+
+### Human:
+Open photo editor
+
+### Assistant:
+open -a Photos"
+"### System:
+macOS
+
+### Human:
+Connect to Wi-Fi
+
+### Assistant:
+open /System/Library/PreferencePanes/Network.prefPane"
+"### System:
+macOS
+
+### Human:
+Turn off computer
+
+### Assistant:
+sudo shutdown -h now"
+"### System:
+macOS
+
+### Human:
+Open file explorer
+
+### Assistant:
+open -a Finder"
+"### System:
+macOS
+
+### Human:
+Reboot my computer
+
+### Assistant:
+sudo reboot"
+"### System:
+Windows
+
+### Human:
+Show my IP address
+
+### Assistant:
+ipconfig"
+"### System:
+macOS
+
+### Human:
+Show my IP address
+
+### Assistant:
+ifconfig"
+"### System:
+Linux
+
+### Human:
+Show my IP address
+
+### Assistant:
+ifconfig"
+"### System:
+Windows
+
+### Human:
+Show running processes
+
+### Assistant:
+tasklist"
+"### System:
+macOS
+
+### Human:
+Show running processes
+
+### Assistant:
+ps aux"
+"### System:
+Linux
+
+### Human:
+Show running processes
+
+### Assistant:
+ps aux"
+"### System:
+Windows
+
+### Human:
+Show network connections
+
+### Assistant:
+netstat -an"
+"### System:
+macOS
+
+### Human:
+Show network connections
+
+### Assistant:
+netstat -an"
+"### System:
+Linux
+
+### Human:
+Show network connections
+
+### Assistant:
+netstat -an"
+"### System:
+Windows
+
+### Human:
+Search for files
+
+### Assistant:
+start explorer.exe"
+"### System:
+macOS
+
+### Human:
+Search for files
+
+### Assistant:
+mdfind 'query'"
+"### System:
+Linux
+
+### Human:
+Search for files
+
+### Assistant:
+find / -name 'filename'"
+"### System:
+Windows
+
+### Human:
+Open my email client
+
+### Assistant:
+start outlook.exe"
+"### System:
+macOS
+
+### Human:
+Open my email client
+
+### Assistant:
+open -a Mail"
+"### System:
+Linux
+
+### Human:
+Open my email client
+
+### Assistant:
+geary"
+"### System:
+Windows
+
+### Human:
+Open my music player
+
+### Assistant:
+start wmplayer.exe"
+"### System:
+macOS
+
+### Human:
+Open my music player
+
+### Assistant:
+open -a Music"
+"### System:
+Linux
+
+### Human:
+Open my music player
+
+### Assistant:
+rhythmbox"
+"### System:
+Windows
+
+### Human:
+I want to batch resize images in a folder
+
+### Assistant:
+Use a tool like IrfanView or PowerShell script to batch resize images."
+"### System:
+macOS
+
+### Human:
+I want to batch resize images in a folder
+
+### Assistant:
+Use a tool like Preview or Automator to batch resize images."
+"### System:
+Linux
+
+### Human:
+I want to batch resize images in a folder
+
+### Assistant:
+Use a tool like ImageMagick with the 'convert' command or a bash script to batch resize images."
+"### System:
+Windows
+
+### Human:
+How can I merge PDF files?
+
+### Assistant:
+You can use Adobe Acrobat, an online PDF merger, or a third-party application like PDFsam."
+"### System:
+macOS
+
+### Human:
+How can I merge PDF files?
+
+### Assistant:
+You can use Preview or an online PDF merger."
+"### System:
+Linux
+
+### Human:
+How can I merge PDF files?
+
+### Assistant:
+You can use a tool like pdfunite or an online PDF merger."
+"### System:
+Windows
+
+### Human:
+How do I set up a virtual machine?
+
+### Assistant:
+You can use a tool like VirtualBox or Hyper-V. Create a new virtual machine, select the OS type, and allocate resources like CPU, RAM, and storage."
+"### System:
+macOS
+
+### Human:
+How do I set up a virtual machine?
+
+### Assistant:
+You can use a tool like VirtualBox or Parallels. Create a new virtual machine, select the OS type, and allocate resources like CPU, RAM, and storage."
+"### System:
+Linux
+
+### Human:
+How do I set up a virtual machine?
+
+### Assistant:
+You can use a tool like VirtualBox or KVM. Create a new virtual machine, select the OS type, and allocate resources like CPU, RAM, and storage."
+"### System:
+Windows
+
+### Human:
+I need to record a podcast with remote guests. How can I do that?
+
+### Assistant:
+You can use software like Audacity for recording and Skype or Zoom for connecting with remote guests. Record each guest's audio separately for better quality."
+"### System:
+macOS
+
+### Human:
+I need to record a podcast with remote guests. How can I do that?
+
+### Assistant:
+You can use software like GarageBand for recording and FaceTime, Skype, or Zoom for connecting with remote guests. Record each guest's audio separately for better quality."
+"### System:
+Linux
+
+### Human:
+I need to record a podcast with remote guests. How can I do that?
+
+### Assistant:
+You can use software like Audacity for recording and Jitsi or Zoom for connecting with remote guests. Record each guest's audio separately for better quality."
+"### System:
+Windows
+
+### Human:
+I'm making a website and need to test it on different browsers. How can I do that?
+
+### Assistant:
+Use tools like BrowserStack or Sauce Labs for cross-browser testing. You can also install different browsers and test your website locally."
+"### System:
+macOS
+
+### Human:
+I'm making a website and need to test it on different browsers. How can I do that?
+
+### Assistant:
+Use tools like BrowserStack or Sauce Labs for cross-browser testing. You can also install different browsers and test your website locally."
+"### System:
+Linux
+
+### Human:
+I'm making a website and need to test it on different browsers. How can I do that?
+
+### Assistant:
+Use tools like BrowserStack or Sauce Labs for cross-browser testing. You can also install different browsers and test your website locally."
+"### System:
+Windows
+
+### Human:
+How many files do I have in the Documents folder?
+
+### Assistant:
+Open PowerShell and enter: `(Get-ChildItem 'Documents' -Recurse).Count`"
+"### System:
+macOS
+
+### Human:
+How many files do I have in the Documents folder?
+
+### Assistant:
+Open Terminal and enter: `find ~/Documents -type f | wc -l`"
+"### System:
+Linux
+
+### Human:
+How many files do I have in the Documents folder?
+
+### Assistant:
+Open Terminal and enter: `find ~/Documents -type f | wc -l`"
+"### System:
+Windows
+
+### Human:
+What's the size of my Downloads folder?
+
+### Assistant:
+Open PowerShell and enter: `(Get-ChildItem 'Downloads' -Recurse | Measure-Object -Property Length -Sum).Sum / 1MB`"
+"### System:
+macOS
+
+### Human:
+What's the size of my Downloads folder?
+
+### Assistant:
+Open Terminal and enter: `du -sh ~/Downloads`"
+"### System:
+Linux
+
+### Human:
+What's the size of my Downloads folder?
+
+### Assistant:
+Open Terminal and enter: `du -sh ~/Downloads`"
+"### System:
+Windows
+
+### Human:
+What's my current free space on disk?
+
+### Assistant:
+Open PowerShell and enter: `Get-PSDrive`"
+"### System:
+macOS
+
+### Human:
+What's my current free space on disk?
+
+### Assistant:
+Open Terminal and enter: `df -h`"
+"### System:
+Linux
+
+### Human:
+What's my current free space on disk?
+
+### Assistant:
+Open Terminal and enter: `df -h`"
+"### System:
+Windows
+
+### Human:
+How much RAM do I have?
+
+### Assistant:
+Open PowerShell and enter: `Get-ComputerInfo | Select-Object OsTotalVisibleMemorySize`"
+"### System:
+macOS
+
+### Human:
+How much RAM do I have?
+
+### Assistant:
+Open Terminal and enter: `sysctl -n hw.memsize`"
+"### System:
+Linux
+
+### Human:
+How much RAM do I have?
+
+### Assistant:
+Open Terminal and enter: `grep MemTotal /proc/meminfo`"
+"### System:
+Windows
+
+### Human:
+What's my computer's IP address?
+
+### Assistant:
+Open PowerShell and enter: `ipconfig | findstr /i ""IPv4 Address""`"
+"### System:
+macOS
+
+### Human:
+What's my computer's IP address?
+
+### Assistant:
+Open Terminal and enter: `ipconfig getifaddr en0`"
+"### System:
+Linux
+
+### Human:
+What's my computer's IP address?
+
+### Assistant:
+Open Terminal and enter: `hostname -I`"
+"### System:
+Windows
+
+### Human:
+How do I check my computer's CPU usage?
+
+### Assistant:
+Press Ctrl+Shift+Esc to open Task Manager and go to the Performance tab."
+"### System:
+macOS
+
+### Human:
+How do I check my computer's CPU usage?
+
+### Assistant:
+Open Activity Monitor from the Utilities folder."
+"### System:
+Linux
+
+### Human:
+How do I check my computer's CPU usage?
+
+### Assistant:
+Open Terminal and enter: `top`"
+"### System:
+Windows
+
+### Human:
+What version of Windows am I running?
+
+### Assistant:
+Press Win+I to open Settings, then go to System > About."
+"### System:
+macOS
+
+### Human:
+What version of macOS am I running?
+
+### Assistant:
+Click the Apple logo in the top-left corner and select About This Mac."
+"### System:
+Linux
+
+### Human:
+What version of Linux am I running?
+
+### Assistant:
+Open Terminal and enter: `lsb_release -a`"
+"### System:
+Windows
+
+### Human:
+How do I uninstall a program?
+
+### Assistant:
+Press Win+I to open Settings, then go to Apps > Apps & Features. Select the program and click Uninstall."
+"### System:
+macOS
+
+### Human:
+How do I uninstall a program?
+
+### Assistant:
+Drag the program from the Applications folder to the Trash, then empty the Trash."
+"### System:
+Linux
+
+### Human:
+How do I uninstall a program?
+
+### Assistant:
+Open Terminal and use your package manager. For example, `sudo apt-get remove [program_name]` for Ubuntu."
+"### System:
+Windows
+
+### Human:
+How do I take a screenshot?
+
+### Assistant:
+Press PrtScn to capture the entire screen or Alt+PrtScn to capture the active window."
+"### System:
+macOS
+
+### Human:
+How do I take a screenshot?
+
+### Assistant:
+Press Shift+Command+4 and drag to select the area. Press Shift+Command+3 to capture the entire screen."
+"### System:
+Linux
+
+### Human:
+How do I take a screenshot?
+
+### Assistant:
+Press Print Screen to capture the entire screen or Shift+Print Screen to capture a selected area."
+"### System:
+Windows
+
+### Human:
+List all the files in my Documents folder
+
+### Assistant:
+dir Documents"
+"### System:
+macOS
+
+### Human:
+List all the files in my Documents folder
+
+### Assistant:
+ls ~/Documents"
+"### System:
+Linux
+
+### Human:
+List all the files in my Documents folder
+
+### Assistant:
+ls ~/Documents"
+"### System:
+Windows
+
+### Human:
+How do I find out my computer's name?
+
+### Assistant:
+echo %computername%"
+"### System:
+macOS
+
+### Human:
+How do I find out my computer's name?
+
+### Assistant:
+hostname"
+"### System:
+Linux
+
+### Human:
+How do I find out my computer's name?
+
+### Assistant:
+hostname"
+"### System:
+Windows
+
+### Human:
+How can I find out what programs are starting up with my computer?
+
+### Assistant:
+msconfig"
+"### System:
+macOS
+
+### Human:
+How can I find out what programs are starting up with my computer?
+
+### Assistant:
+systemctl list-unit-files --type=service | grep enabled"
+"### System:
+Linux
+
+### Human:
+How can I find out what programs are starting up with my computer?
+
+### Assistant:
+systemctl list-unit-files --type=service | grep enabled"
+"### System:
+Windows
+
+### Human:
+Show me a list of all installed programs
+
+### Assistant:
+Get-WmiObject -Query ""SELECT * FROM Win32_Product"" | Select-Object -Property Name"
+"### System:
+macOS
+
+### Human:
+Show me a list of all installed programs
+
+### Assistant:
+ls /Applications"
+"### System:
+Linux
+
+### Human:
+Show me a list of all installed programs
+
+### Assistant:
+apt list --installed"
+"### System:
+Windows
+
+### Human:
+How do I check disk usage?
+
+### Assistant:
+Get-PSDrive"
+"### System:
+macOS
+
+### Human:
+How do I check disk usage?
+
+### Assistant:
+df -h"
+"### System:
+Linux
+
+### Human:
+How do I check disk usage?
+
+### Assistant:
+df -h"
+"### System:
+Windows
+
+### Human:
+How can I see all running processes?
+
+### Assistant:
+Get-Process"
+"### System:
+macOS
+
+### Human:
+How can I see all running processes?
+
+### Assistant:
+ps aux"
+"### System:
+Linux
+
+### Human:
+How can I see all running processes?
+
+### Assistant:
+ps aux"
+"### System:
+Windows
+
+### Human:
+What's my public IP address?
+
+### Assistant:
+Invoke-RestMethod httpbin.org/ip | Select-Object -ExpandProperty origin"
+"### System:
+macOS
+
+### Human:
+What's my public IP address?
+
+### Assistant:
+curl httpbin.org/ip"
+"### System:
+Linux
+
+### Human:
+What's my public IP address?
+
+### Assistant:
+curl httpbin.org/ip"
+"### System:
+Windows
+
+### Human:
+How can I search for a file?
+
+### Assistant:
+Get-ChildItem -Recurse | Where-Object {$_.Name -match 'filename'}"
+"### System:
+macOS
+
+### Human:
+How can I search for a file?
+
+### Assistant:
+find / -type f -name 'filename'"
+"### System:
+Linux
+
+### Human:
+How can I search for a file?
+
+### Assistant:
+find / -type f -name 'filename'"
+"### System:
+Windows
+
+### Human:
+Count the number of text files in my Documents folder
+
+### Assistant:
+Get-ChildItem 'Documents' -Recurse | Where-Object {$_.Extension -eq '.txt'} | Measure-Object | Select-Object -ExpandProperty Count"
+"### System:
+macOS
+
+### Human:
+Count the number of text files in my Documents folder
+
+### Assistant:
+find ~/Documents -type f -name '*.txt' | wc -l"
+"### System:
+Linux
+
+### Human:
+Count the number of text files in my Documents folder
+
+### Assistant:
+find ~/Documents -type f -name '*.txt' | wc -l"
+"### System:
+Windows
+
+### Human:
+Find the largest file in my Downloads folder
+
+### Assistant:
+Get-ChildItem 'Downloads' -Recurse | Sort-Object Length -Descending | Select-Object -First 1"
+"### System:
+macOS
+
+### Human:
+Find the largest file in my Downloads folder
+
+### Assistant:
+find ~/Downloads -type f -exec ls -lhS {} + | head -1"
+"### System:
+Linux
+
+### Human:
+Find the largest file in my Downloads folder
+
+### Assistant:
+find ~/Downloads -type f -exec ls -lhS {} + | head -1"
+"### System:
+Windows
+
+### Human:
+Find all the duplicate files in my Documents folder
+
+### Assistant:
+Get-ChildItem 'Documents' -Recurse | Group-Object -Property Length | Where-Object {$_.Count -gt 1} | Foreach-Object {$_.Group | Select-Object -ExpandProperty FullName}"
+"### System:
+macOS
+
+### Human:
+Find all the duplicate files in my Documents folder
+
+### Assistant:
+fdupes -r ~/Documents"
+"### System:
+Linux
+
+### Human:
+Find all the duplicate files in my Documents folder
+
+### Assistant:
+fdupes -r ~/Documents"
+"### System:
+Windows
+
+### Human:
+How do I encrypt a folder?
+
+### Assistant:
+Right-click on the folder > Properties > Advanced > Select 'Encrypt contents to secure data' > OK"
+"### System:
+macOS
+
+### Human:
+How do I encrypt a folder?
+
+### Assistant:
+diskutil coreStorage createEncryptedVolume 'VolumeName' /path/to/folder"
+"### System:
+Linux
+
+### Human:
+How do I encrypt a folder?
+
+### Assistant:
+gpg-zip -c --encrypt --password='your_password' -o output.gpg /path/to/folder"
+"### System:
+Windows
+
+### Human:
+Show all files larger than 100MB in my Documents folder
+
+### Assistant:
+Get-ChildItem 'Documents' -Recurse | Where-Object {$_.Length -gt 100MB}"
+"### System:
+macOS
+
+### Human:
+Show all files larger than 100MB in my Documents folder
+
+### Assistant:
+find ~/Documents -type f -size +100M"
+"### System:
+Linux
+
+### Human:
+Show all files larger than 100MB in my Documents folder
+
+### Assistant:
+find ~/Documents -type f -size +100M"
+"### System:
+Windows
+
+### Human:
+What is taking up the most space on my C drive?
+
+### Assistant:
+Get-ChildItem C:\ -Recurse | Group-Object -Property Directory | Sort-Object {($_.Group | Measure-Object -Property Length -Sum).Sum} -Descending | Select-Object -First 1"
+"### System:
+macOS
+
+### Human:
+What is taking up the most space on my Mac?
+
+### Assistant:
+sudo du -sh /* | sort -rh | head -1"
+"### System:
+Linux
+
+### Human:
+What is taking up the most space on my Linux machine?
+
+### Assistant:
+sudo du -sh /* | sort -rh | head -1"
+"### System:
+Windows
+
+### Human:
+How do I change my computer's hostname?
+
+### Assistant:
+Go to Settings > System > About > Rename this PC"
+"### System:
+macOS
+
+### Human:
+How do I change my computer's hostname?
+
+### Assistant:
+sudo scutil --set HostName new_hostname"
+"### System:
+Linux
+
+### Human:
+How do I change my computer's hostname?
+
+### Assistant:
+sudo hostnamectl set-hostname new_hostname"
+"### System:
+Windows
+
+### Human:
+How can I see the list of all open network ports?
+
+### Assistant:
+Get-NetTCPConnection"
+"### System:
+macOS
+
+### Human:
+How can I see the list of all open network ports?
+
+### Assistant:
+lsof -i -n -P"
+"### System:
+Linux
+
+### Human:
+How can I see the list of all open network ports?
+
+### Assistant:
+netstat -tulpn"
+"### System:
+Windows
+
+### Human:
+How can I see my computer's uptime?
+
+### Assistant:
+Get-CimInstance -ClassName win32_operatingsystem | Select-Object -Property LastBootUpTime"
+"### System:
+macOS
+
+### Human:
+How can I see my computer's uptime?
+
+### Assistant:
+uptime"
+"### System:
+Linux
+
+### Human:
+How can I see my computer's uptime?
+
+### Assistant:
+uptime"
+"### System:
+Windows
+
+### Human:
+What's the total size of my Pictures folder?
+
+### Assistant:
+Get-ChildItem 'Pictures' -Recurse | Measure-Object -Property Length -Sum | Select-Object -ExpandProperty Sum"
+"### System:
+macOS
+
+### Human:
+What's the total size of my Pictures folder?
+
+### Assistant:
+du -sh ~/Pictures | cut -f1"
+"### System:
+Linux
+
+### Human:
+What's the total size of my Pictures folder?
+
+### Assistant:
+du -sh ~/Pictures | cut -f1"
+"### System:
+Windows
+
+### Human:
+How do I change my desktop wallpaper?
+
+### Assistant:
+Right-click on the desktop > Personalize > Background"
+"### System:
+macOS
+
+### Human:
+How do I change my desktop wallpaper?
+
+### Assistant:
+System Preferences > Desktop & Screen Saver > Desktop"
+"### System:
+Linux
+
+### Human:
+How do I change my desktop wallpaper?
+
+### Assistant:
+Right-click on the desktop > Change Desktop Background"
+"### System:
+Windows
+
+### Human:
+How can I find out my computer's MAC address?
+
+### Assistant:
+Getmac"
+"### System:
+macOS
+
+### Human:
+How can I find out my computer's MAC address?
+
+### Assistant:
+ifconfig | grep 'ether'"
+"### System:
+Linux
+
+### Human:
+How can I find out my computer's MAC address?
+
+### Assistant:
+ifconfig | grep 'HWaddr'"
+"### System:
+Windows
+
+### Human:
+Search for all PDF files in my Documents folder
+
+### Assistant:
+Get-ChildItem 'Documents' -Recurse | Where-Object {$_.Extension -eq '.pdf'}"
+"### System:
+macOS
+
+### Human:
+Search for all PDF files in my Documents folder
+
+### Assistant:
+find ~/Documents -type f -name '*.pdf'"
+"### System:
+Linux
+
+### Human:
+Search for all PDF files in my Documents folder
+
+### Assistant:
+find ~/Documents -type f -name '*.pdf'"
+"### System:
+Windows
+
+### Human:
+Replace all occurrences of 'apple' with 'orange' in file.txt
+
+### Assistant:
+(Get-Content 'file.txt') -replace 'apple', 'orange' | Set-Content 'file.txt'"
+"### System:
+macOS
+
+### Human:
+Replace all occurrences of 'apple' with 'orange' in file.txt
+
+### Assistant:
+sed -i '' 's/apple/orange/g' file.txt"
+"### System:
+Linux
+
+### Human:
+Replace all occurrences of 'apple' with 'orange' in file.txt
+
+### Assistant:
+sed -i 's/apple/orange/g' file.txt"
+"### System:
+Windows
+
+### Human:
+Open the default web browser and search for 'best restaurants near me'
+
+### Assistant:
+start iexplore.exe 'https://www.google.com/search?q=best+restaurants+near+me'"
+"### System:
+macOS
+
+### Human:
+Open the default web browser and search for 'best restaurants near me'
+
+### Assistant:
+open -a Safari 'https://www.google.com/search?q=best+restaurants+near+me'"
+"### System:
+Linux
+
+### Human:
+Open the default web browser and search for 'best restaurants near me'
+
+### Assistant:
+xdg-open 'https://www.google.com/search?q=best+restaurants+near+me'"
+"### System:
+Windows
+
+### Human:
+Open my documents
+
+### Assistant:
+start explorer.exe My Documents"
+"### System:
+Windows
+
+### Human:
+Show me the control panel
+
+### Assistant:
+control"
+"### System:
+Windows
+
+### Human:
+Search for a file
+
+### Assistant:
+start explorer.exe /search"
+"### System:
+macOS
+
+### Human:
+Open the terminal
+
+### Assistant:
+open -a Terminal"
+"### System:
+macOS
+
+### Human:
+Show me the system preferences
+
+### Assistant:
+open -a ""System Preferences"""
+"### System:
+macOS
+
+### Human:
+Search for a file
+
+### Assistant:
+mdfind -name"
+"### System:
+Linux
+
+### Human:
+Open the terminal
+
+### Assistant:
+gnome-terminal"
+"### System:
+Linux
+
+### Human:
+Search for a file
+
+### Assistant:
+find . -name"
+"### System:
+Linux
+
+### Human:
+Show system information
+
+### Assistant:
+uname -a"
+"### System:
+Windows
+
+### Human:
+How do I change the desktop background?
+
+### Assistant:
+Right-click on the desktop and select ""Personalize"""
+"### System:
+Windows
+
+### Human:
+Where are my downloads?
+
+### Assistant:
+start explorer.exe Downloads"
+"### System:
+Windows
+
+### Human:
+Open calculator
+
+### Assistant:
+start calc.exe"
+"### System:
+macOS
+
+### Human:
+How do I change the desktop background?
+
+### Assistant:
+Go to ""System Preferences"" > ""Desktop & Screen Saver"""
+"### System:
+macOS
+
+### Human:
+Where are my downloads?
+
+### Assistant:
+open ~/Downloads"
+"### System:
+macOS
+
+### Human:
+Open calculator
+
+### Assistant:
+open -a Calculator"
+"### System:
+Linux
+
+### Human:
+How do I change the desktop background?
+
+### Assistant:
+Right-click on the desktop and select ""Change Background"""
+"### System:
+Linux
+
+### Human:
+Where are my downloads?
+
+### Assistant:
+xdg-open ~/Downloads"
+"### System:
+Linux
+
+### Human:
+Open calculator
+
+### Assistant:
+gnome-calculator"
+"### System:
+Windows
+
+### Human:
+What is the weather like?
+
+### Assistant:
+start msedge.exe ""https://www.weather.com/"""
+"### System:
+Windows
+
+### Human:
+Set a timer for 5 minutes
+
+### Assistant:
+start msedge.exe ""https://www.google.com/search?q=set+a+timer+for+5+minutes"""
+"### System:
+Windows
+
+### Human:
+Open Notepad
+
+### Assistant:
+start notepad.exe"
+"### System:
+macOS
+
+### Human:
+What is the weather like?
+
+### Assistant:
+open -a Safari ""https://www.weather.com/"""
+"### System:
+macOS
+
+### Human:
+Set a timer for 5 minutes
+
+### Assistant:
+open -a Safari ""https://www.google.com/search?q=set+a+timer+for+5+minutes"""
+"### System:
+macOS
+
+### Human:
+Open TextEdit
+
+### Assistant:
+open -a TextEdit"
+"### System:
+Linux
+
+### Human:
+What is the weather like?
+
+### Assistant:
+google-chrome ""https://www.weather.com/"""
+"### System:
+Linux
+
+### Human:
+Set a timer for 5 minutes
+
+### Assistant:
+google-chrome ""https://www.google.com/search?q=set+a+timer+for+5+minutes"""
+"### System:
+Linux
+
+### Human:
+Open gedit
+
+### Assistant:
+gedit"
+"### System:
+Windows
+
+### Human:
+How do I take a screenshot?
+
+### Assistant:
+Press ""PrtSc"" key"
+"### System:
+Windows
+
+### Human:
+Open Microsoft Word
+
+### Assistant:
+start winword.exe"
+"### System:
+Windows
+
+### Human:
+Open Microsoft Excel
+
+### Assistant:
+start excel.exe"
+"### System:
+macOS
+
+### Human:
+How do I take a screenshot?
+
+### Assistant:
+Press ""Command + Shift + 4"""
+"### System:
+macOS
+
+### Human:
+Open Microsoft Word
+
+### Assistant:
+open -a ""Microsoft Word"""
+"### System:
+macOS
+
+### Human:
+Open Microsoft Excel
+
+### Assistant:
+open -a ""Microsoft Excel"""
+"### System:
+Linux
+
+### Human:
+How do I take a screenshot?
+
+### Assistant:
+Press ""PrtSc"" key"
+"### System:
+Linux
+
+### Human:
+Open LibreOffice Writer
+
+### Assistant:
+libreoffice --writer"
+"### System:
+Linux
+
+### Human:
+Open LibreOffice Calc
+
+### Assistant:
+libreoffice --calc"
+"### System:
+Windows
+
+### Human:
+Open the task manager
+
+### Assistant:
+Ctrl + Shift + Esc"
+"### System:
+Windows
+
+### Human:
+Lock the computer
+
+### Assistant:
+Windows + L"
+"### System:
+Windows
+
+### Human:
+Open the command prompt
+
+### Assistant:
+start cmd.exe"
+"### System:
+macOS
+
+### Human:
+Open the activity monitor
+
+### Assistant:
+open -a ""Activity Monitor"""
+"### System:
+macOS
+
+### Human:
+Lock the computer
+
+### Assistant:
+Command + Control + Q"
+"### System:
+macOS
+
+### Human:
+Open the terminal
+
+### Assistant:
+open -a Terminal"
+"### System:
+Linux
+
+### Human:
+Open the system monitor
+
+### Assistant:
+gnome-system-monitor"
+"### System:
+Linux
+
+### Human:
+Lock the computer
+
+### Assistant:
+gnome-screensaver-command -l"
+"### System:
+Linux
+
+### Human:
+Open the terminal
+
+### Assistant:
+gnome-terminal"
+"### System:
+Windows
+
+### Human:
+Change the wallpaper
+
+### Assistant:
+Right-click on the desktop and select ""Personalize"" > ""Background"""
+"### System:
+Windows
+
+### Human:
+Open Microsoft PowerPoint
+
+### Assistant:
+start powerpnt.exe"
+"### System:
+Windows
+
+### Human:
+Open Disk Cleanup
+
+### Assistant:
+start cleanmgr.exe"
+"### System:
+macOS
+
+### Human:
+Change the wallpaper
+
+### Assistant:
+Go to ""System Preferences"" > ""Desktop & Screen Saver"""
+"### System:
+macOS
+
+### Human:
+Open Microsoft PowerPoint
+
+### Assistant:
+open -a ""Microsoft PowerPoint"""
+"### System:
+macOS
+
+### Human:
+Open Disk Utility
+
+### Assistant:
+open -a ""Disk Utility"""
+"### System:
+Linux
+
+### Human:
+Change the wallpaper
+
+### Assistant:
+Right-click on the desktop and select ""Change Background"""
+"### System:
+Linux
+
+### Human:
+Open LibreOffice Impress
+
+### Assistant:
+libreoffice --impress"
+"### System:
+Linux
+
+### Human:
+Open GParted
+
+### Assistant:
+gparted"
+"### System:
+Windows
+
+### Human:
+Open Windows Defender
+
+### Assistant:
+start msascui.exe"
+"### System:
+Windows
+
+### Human:
+Open Microsoft Teams
+
+### Assistant:
+start Teams.exe"
+"### System:
+Windows
+
+### Human:
+Open Microsoft Edge
+
+### Assistant:
+start msedge.exe"
+"### System:
+macOS
+
+### Human:
+Open Safari
+
+### Assistant:
+open -a Safari"
+"### System:
+macOS
+
+### Human:
+Open Microsoft Teams
+
+### Assistant:
+open -a ""Microsoft Teams"""
+"### System:
+macOS
+
+### Human:
+Open Google Chrome
+
+### Assistant:
+open -a ""Google Chrome"""
+"### System:
+Linux
+
+### Human:
+Open Firefox
+
+### Assistant:
+firefox"
+"### System:
+Linux
+
+### Human:
+Open Microsoft Teams
+
+### Assistant:
+teams"
+"### System:
+Linux
+
+### Human:
+Open Google Chrome
+
+### Assistant:
+google-chrome"
+"### System:
+Windows
+
+### Human:
+Open the settings
+
+### Assistant:
+start ms-settings:"
+"### System:
+Windows
+
+### Human:
+Open the calendar
+
+### Assistant:
+start outlookcal:"
+"### System:
+Windows
+
+### Human:
+Open the camera
+
+### Assistant:
+start microsoft.windows.camera:"
+"### System:
+Windows
+
+### Human:
+Open the maps
+
+### Assistant:
+start bingmaps:"
+"### System:
+Windows
+
+### Human:
+Open the photos
+
+### Assistant:
+start ms-photos:"
+"### System:
+Windows
+
+### Human:
+Open the calculator
+
+### Assistant:
+start calculator:"
+"### System:
+Windows
+
+### Human:
+Open the alarm clock
+
+### Assistant:
+start ms-clock:"
+"### System:
+Windows
+
+### Human:
+Open the voice recorder
+
+### Assistant:
+start soundrecorder:"
+"### System:
+Windows
+
+### Human:
+Open the weather
+
+### Assistant:
+start bingweather:"
+"### System:
+Windows
+
+### Human:
+Open the news
+
+### Assistant:
+start bingnews:"
+"### System:
+Windows
+
+### Human:
+Open the sports
+
+### Assistant:
+start bingsports:"
+"### System:
+Windows
+
+### Human:
+Open the movies & TV
+
+### Assistant:
+start ms-videoplayer:"
+"### System:
+Windows
+
+### Human:
+Open the money
+
+### Assistant:
+start bingfinance:"
+"### System:
+Windows
+
+### Human:
+Open the people
+
+### Assistant:
+start people:"
+"### System:
+Windows
+
+### Human:
+Open the groove music
+
+### Assistant:
+start mswindowsmusic:"
+"### System:
+macOS
+
+### Human:
+Open the mail
+
+### Assistant:
+open -a Mail"
+"### System:
+macOS
+
+### Human:
+Open the calendar
+
+### Assistant:
+open -a Calendar"
+"### System:
+macOS
+
+### Human:
+Open the contacts
+
+### Assistant:
+open -a Contacts"
+"### System:
+macOS
+
+### Human:
+Open the reminders
+
+### Assistant:
+open -a Reminders"
+"### System:
+macOS
+
+### Human:
+Open the notes
+
+### Assistant:
+open -a Notes"
+"### System:
+macOS
+
+### Human:
+Open the maps
+
+### Assistant:
+open -a Maps"
+"### System:
+macOS
+
+### Human:
+Open the photos
+
+### Assistant:
+open -a Photos"
+"### System:
+macOS
+
+### Human:
+Open the messages
+
+### Assistant:
+open -a Messages"
+"### System:
+macOS
+
+### Human:
+Open the FaceTime
+
+### Assistant:
+open -a FaceTime"
+"### System:
+macOS
+
+### Human:
+Open the iTunes
+
+### Assistant:
+open -a iTunes"
+"### System:
+macOS
+
+### Human:
+Open the iBooks
+
+### Assistant:
+open -a iBooks"
+"### System:
+macOS
+
+### Human:
+Open the news
+
+### Assistant:
+open -a News"
+"### System:
+macOS
+
+### Human:
+Open the stocks
+
+### Assistant:
+open -a Stocks"
+"### System:
+macOS
+
+### Human:
+Open the home
+
+### Assistant:
+open -a Home"
+"### System:
+macOS
+
+### Human:
+Open the podcast
+
+### Assistant:
+open -a Podcasts"
+"### System:
+Linux
+
+### Human:
+Open the file manager
+
+### Assistant:
+nautilus"
+"### System:
+Linux
+
+### Human:
+Open the web browser
+
+### Assistant:
+firefox"
+"### System:
+Linux
+
+### Human:
+Open the text editor
+
+### Assistant:
+gedit"
+"### System:
+Linux
+
+### Human:
+Open the terminal
+
+### Assistant:
+gnome-terminal"
+"### System:
+Linux
+
+### Human:
+Open the system settings
+
+### Assistant:
+gnome-control-center"
+"### System:
+Linux
+
+### Human:
+Open the image viewer
+
+### Assistant:
+eog"
+"### System:
+Linux
+
+### Human:
+Open the video player
+
+### Assistant:
+totem"
+"### System:
+Linux
+
+### Human:
+Open the music player
+
+### Assistant:
+rhythmbox"
+"### System:
+Linux
+
+### Human:
+Open the document viewer
+
+### Assistant:
+evince"
+"### System:
+Linux
+
+### Human:
+Open the disk usage analyzer
+
+### Assistant:
+baobab"
+"### System:
+Linux
+
+### Human:
+Open the disk utility
+
+### Assistant:
+gnome-disks"
+"### System:
+Linux
+
+### Human:
+Open the system monitor
+
+### Assistant:
+gnome-system-monitor"
+"### System:
+Linux
+
+### Human:
+Open the logs
+
+### Assistant:
+gnome-logs"
+"### System:
+Linux
+
+### Human:
+Open the calculator
+
+### Assistant:
+gnome-calculator"
+"### System:
+Linux
+
+### Human:
+Open the calendar
+
+### Assistant:
+gnome-calendar"
+"### System:
+Windows
+
+### Human:
+Open the photo viewer
+
+### Assistant:
+start photoviewer"
+"### System:
+Windows
+
+### Human:
+Open the music player
+
+### Assistant:
+start wmplayer"
+"### System:
+Windows
+
+### Human:
+Open the video player
+
+### Assistant:
+start wmplayer"
+"### System:
+Windows
+
+### Human:
+Open the email client
+
+### Assistant:
+start outlook"
+"### System:
+Windows
+
+### Human:
+Open the web browser
+
+### Assistant:
+start msedge.exe"
+"### System:
+Windows
+
+### Human:
+Open the file explorer
+
+### Assistant:
+start explorer.exe"
+"### System:
+Windows
+
+### Human:
+Open the system settings
+
+### Assistant:
+start ms-settings:"
+"### System:
+Windows
+
+### Human:
+Open the calculator
+
+### Assistant:
+start calc.exe"
+"### System:
+Windows
+
+### Human:
+Open the command prompt
+
+### Assistant:
+start cmd.exe"
+"### System:
+Windows
+
+### Human:
+Open the text editor
+
+### Assistant:
+start notepad.exe"
+"### System:
+Windows
+
+### Human:
+Open the task manager
+
+### Assistant:
+Ctrl + Shift + Esc"
+"### System:
+Windows
+
+### Human:
+Open the disk cleanup tool
+
+### Assistant:
+start cleanmgr.exe"
+"### System:
+Windows
+
+### Human:
+Open the disk defragmenter
+
+### Assistant:
+start dfrgui.exe"
+"### System:
+Windows
+
+### Human:
+Open the network settings
+
+### Assistant:
+start ms-settings:network"
+"### System:
+Windows
+
+### Human:
+Open the security settings
+
+### Assistant:
+start ms-settings:privacy"
+"### System:
+macOS
+
+### Human:
+Open the photo viewer
+
+### Assistant:
+open -a Preview"
+"### System:
+macOS
+
+### Human:
+Open the music player
+
+### Assistant:
+open -a ""Music"""
+"### System:
+macOS
+
+### Human:
+Open the video player
+
+### Assistant:
+open -a ""QuickTime Player"""
+"### System:
+macOS
+
+### Human:
+Open the email client
+
+### Assistant:
+open -a Mail"
+"### System:
+macOS
+
+### Human:
+Open the web browser
+
+### Assistant:
+open -a Safari"
+"### System:
+macOS
+
+### Human:
+Open the file explorer
+
+### Assistant:
+open -a Finder"
+"### System:
+macOS
+
+### Human:
+Open the system settings
+
+### Assistant:
+open -a ""System Preferences"""
+"### System:
+macOS
+
+### Human:
+Open the calculator
+
+### Assistant:
+open -a Calculator"
+"### System:
+macOS
+
+### Human:
+Open the terminal
+
+### Assistant:
+open -a Terminal"
+"### System:
+macOS
+
+### Human:
+Open the text editor
+
+### Assistant:
+open -a ""TextEdit"""
+"### System:
+macOS
+
+### Human:
+Open the activity monitor
+
+### Assistant:
+open -a ""Activity Monitor"""
+"### System:
+macOS
+
+### Human:
+Open the disk utility
+
+### Assistant:
+open -a ""Disk Utility"""
+"### System:
+macOS
+
+### Human:
+Open the network settings
+
+### Assistant:
+open ""System Preferences"" && open ""Network"""
+"### System:
+macOS
+
+### Human:
+Open the security settings
+
+### Assistant:
+open ""System Preferences"" && open ""Security & Privacy"""
+"### System:
+macOS
+
+### Human:
+Open the file permissions settings
+
+### Assistant:
+open ""System Preferences"" && open ""File Sharing"""
+"### System:
+Linux
+
+### Human:
+Open the photo viewer
+
+### Assistant:
+eog"
+"### System:
+Linux
+
+### Human:
+Open the music player
+
+### Assistant:
+rhythmbox"
+"### System:
+Linux
+
+### Human:
+Open the video player
+
+### Assistant:
+totem"
+"### System:
+Linux
+
+### Human:
+Open the email client
+
+### Assistant:
+thunderbird"
+"### System:
+Linux
+
+### Human:
+Open the web browser
+
+### Assistant:
+firefox"
+"### System:
+Linux
+
+### Human:
+Open the file manager
+
+### Assistant:
+nautilus"
+"### System:
+Linux
+
+### Human:
+Open the system settings
+
+### Assistant:
+gnome-control-center"
+"### System:
+Linux
+
+### Human:
+Open the calculator
+
+### Assistant:
+gnome-calculator"
+"### System:
+Linux
+
+### Human:
+Open the terminal
+
+### Assistant:
+gnome-terminal"
+"### System:
+Linux
+
+### Human:
+Open the text editor
+
+### Assistant:
+gedit"
+"### System:
+Linux
+
+### Human:
+Open the system monitor
+
+### Assistant:
+gnome-system-monitor"
+"### System:
+Linux
+
+### Human:
+Open the disk utility
+
+### Assistant:
+gnome-disks"
+"### System:
+Linux
+
+### Human:
+Open the network settings
+
+### Assistant:
+nm-connection-editor"
+"### System:
+Linux
+
+### Human:
+Open the security settings
+
+### Assistant:
+seahorse"
+"### System:
+Linux
+
+### Human:
+Open the file permissions settings
+
+### Assistant:
+gnome-usershare-properties"
+"### System:
+Linux
+
+### Human:
+How do I disable the touchpad?
+
+### Assistant:
+xinput --list --short | grep touchpad && xinput --disable <device-id>"
+"### System:
+Linux
+
+### Human:
+How do I enable Dark Mode?
+
+### Assistant:
+gsettings set org.gnome.desktop.interface gtk-theme ""Adwaita-dark"""
+"### System:
+Linux
+
+### Human:
+How do I disable the touchpad?
+
+### Assistant:
+xinput --list --short | grep touchpad && xinput --disable <device-id>"
+"### System:
+Linux
+
+### Human:
+How do I enable Dark Mode?
+
+### Assistant:
+gsettings set org.gnome.desktop.interface gtk-theme ""Adwaita-dark"""
+"### System:
+Linux
+
+### Human:
+Open the Proxy settings
+
+### Assistant:
+gnome-control-center network"
+"### System:
+Linux
+
+### Human:
+Open the Sound settings
+
+### Assistant:
+gnome-control-center sound"
+"### System:
+Linux
+
+### Human:
+Open the Display settings
+
+### Assistant:
+gnome-control-center display"
+"### System:
+Linux
+
+### Human:
+Open the Storage settings
+
+### Assistant:
+gnome-disks"
+"### System:
+Linux
+
+### Human:
+Open the Battery settings
+
+### Assistant:
+gnome-power-statistics"
+"### System:
+Linux
+
+### Human:
+Open the Multitasking settings
+
+### Assistant:
+gnome-tweaks"
+"### System:
+Linux
+
+### Human:
+Open the Tablet mode settings
+
+### Assistant:
+gnome-control-center wacom"
+"### System:
+Linux
+
+### Human:
+Open the Printers & scanners settings
+
+### Assistant:
+gnome-control-center printers"
+"### System:
+Linux
+
+### Human:
+Open the Mouse & touchpad settings
+
+### Assistant:
+gnome-control-center mouse"
+"### System:
+Linux
+
+### Human:
+Open the Typing settings
+
+### Assistant:
+gnome-control-center keyboard"
+"### System:
+Linux
+
+### Human:
+Open the Pen & Windows Ink settings
+
+### Assistant:
+gnome-control-center wacom"
+"### System:
+Windows
+
+### Human:
+Open the File Explorer
+
+### Assistant:
+start explorer.exe"
+"### System:
+Windows
+
+### Human:
+Open the Control Panel
+
+### Assistant:
+control"
+"### System:
+Windows
+
+### Human:
+Open the Settings
+
+### Assistant:
+start ms-settings:"
+"### System:
+Windows
+
+### Human:
+Open the Task Manager
+
+### Assistant:
+Ctrl + Shift + Esc"
+"### System:
+Windows
+
+### Human:
+Open the Registry Editor
+
+### Assistant:
+regedit"
+"### System:
+Windows
+
+### Human:
+Open the Device Manager
+
+### Assistant:
+devmgmt.msc"
+"### System:
+Windows
+
+### Human:
+Open the Disk Management
+
+### Assistant:
+diskmgmt.msc"
+"### System:
+Windows
+
+### Human:
+Open the Event Viewer
+
+### Assistant:
+eventvwr.msc"
+"### System:
+Windows
+
+### Human:
+Open the Local Security Policy
+
+### Assistant:
+secpol.msc"
+"### System:
+Windows
+
+### Human:
+Open the Services
+
+### Assistant:
+services.msc"
+"### System:
+Windows
+
+### Human:
+Open the Performance Monitor
+
+### Assistant:
+perfmon.msc"
+"### System:
+Windows
+
+### Human:
+Open the Resource Monitor
+
+### Assistant:
+resmon"
+"### System:
+Windows
+
+### Human:
+Open the Computer Management
+
+### Assistant:
+compmgmt.msc"
+"### System:
+Windows
+
+### Human:
+Open the Group Policy Editor
+
+### Assistant:
+gpedit.msc"
+"### System:
+Windows
+
+### Human:
+Open the PowerShell
+
+### Assistant:
+powershell"
+"### System:
+macOS
+
+### Human:
+Open the Finder
+
+### Assistant:
+open -a Finder"
+"### System:
+macOS
+
+### Human:
+Open the System Preferences
+
+### Assistant:
+open -a ""System Preferences"""
+"### System:
+macOS
+
+### Human:
+Open the Activity Monitor
+
+### Assistant:
+open -a ""Activity Monitor"""
+"### System:
+macOS
+
+### Human:
+Open the Terminal
+
+### Assistant:
+open -a Terminal"
+"### System:
+macOS
+
+### Human:
+Open the Console
+
+### Assistant:
+open -a Console"
+"### System:
+macOS
+
+### Human:
+Open the Disk Utility
+
+### Assistant:
+open -a ""Disk Utility"""
+"### System:
+macOS
+
+### Human:
+Open the Keychain Access
+
+### Assistant:
+open -a ""Keychain Access"""
+"### System:
+macOS
+
+### Human:
+Open the Bluetooth File Exchange
+
+### Assistant:
+open -a ""Bluetooth File Exchange"""
+"### System:
+macOS
+
+### Human:
+Open the ColorSync Utility
+
+### Assistant:
+open -a ""ColorSync Utility"""
+"### System:
+macOS
+
+### Human:
+Open the Digital Color Meter
+
+### Assistant:
+open -a ""Digital Color Meter"""
+"### System:
+macOS
+
+### Human:
+Open the Font Book
+
+### Assistant:
+open -a ""Font Book"""
+"### System:
+macOS
+
+### Human:
+Open the Grab
+
+### Assistant:
+open -a Grab"
+"### System:
+macOS
+
+### Human:
+Open the Image Capture
+
+### Assistant:
+open -a ""Image Capture"""
+"### System:
+macOS
+
+### Human:
+Open the Migration Assistant
+
+### Assistant:
+open -a ""Migration Assistant"""
+"### System:
+macOS
+
+### Human:
+Open the Preview
+
+### Assistant:
+open -a Preview"
+"### System:
+Linux
+
+### Human:
+Open the Nautilus
+
+### Assistant:
+nautilus"
+"### System:
+Linux
+
+### Human:
+Open the Dolphin
+
+### Assistant:
+dolphin"
+"### System:
+Linux
+
+### Human:
+Open the Thunar
+
+### Assistant:
+thunar"
+"### System:
+Linux
+
+### Human:
+Open the Nemo
+
+### Assistant:
+nemo"
+"### System:
+Linux
+
+### Human:
+Open the Caja
+
+### Assistant:
+caja"
+"### System:
+Linux
+
+### Human:
+Open the PCManFM
+
+### Assistant:
+pcmanfm"
+"### System:
+Linux
+
+### Human:
+Open the Konsole
+
+### Assistant:
+konsole"
+"### System:
+Linux
+
+### Human:
+Open the GNOME Terminal
+
+### Assistant:
+gnome-terminal"
+"### System:
+Linux
+
+### Human:
+Open the XFCE Terminal
+
+### Assistant:
+xfce4-terminal"
+"### System:
+Linux
+
+### Human:
+Open the LXDE Terminal
+
+### Assistant:
+lxterminal"
+"### System:
+Linux
+
+### Human:
+Open the Terminator
+
+### Assistant:
+terminator"
+"### System:
+Linux
+
+### Human:
+Open the Tilda
+
+### Assistant:
+tilda"
+"### System:
+Linux
+
+### Human:
+Open the Yakuake
+
+### Assistant:
+yakuake"
+"### System:
+Linux
+
+### Human:
+Open the Guake
+
+### Assistant:
+guake"
+"### System:
+Linux
+
+### Human:
+Open the ROXTerm
+
+### Assistant:
+roxterm"
+"### System:
+Windows
+
+### Human:
+Open the Bluetooth settings
+
+### Assistant:
+start ms-settings:bluetooth"
+"### System:
+Windows
+
+### Human:
+Open the Network settings
+
+### Assistant:
+start ms-settings:network"
+"### System:
+Windows
+
+### Human:
+Open the Display settings
+
+### Assistant:
+start ms-settings:display"
+"### System:
+Windows
+
+### Human:
+Open the Sound settings
+
+### Assistant:
+start ms-settings:sound"
+"### System:
+Windows
+
+### Human:
+Open the Privacy settings
+
+### Assistant:
+start ms-settings:privacy"
+"### System:
+Windows
+
+### Human:
+Open the Update & Security settings
+
+### Assistant:
+start ms-settings:windowsupdate"
+"### System:
+Windows
+
+### Human:
+Open the Devices settings
+
+### Assistant:
+start ms-settings:devices"
+"### System:
+Windows
+
+### Human:
+Open the Time & Language settings
+
+### Assistant:
+start ms-settings:regionlanguage"
+"### System:
+Windows
+
+### Human:
+Open the Gaming settings
+
+### Assistant:
+start ms-settings:gaming"
+"### System:
+Windows
+
+### Human:
+Open the Accessibility settings
+
+### Assistant:
+start ms-settings:easeofaccess"
+"### System:
+macOS
+
+### Human:
+Open the Bluetooth settings
+
+### Assistant:
+open -a ""System Preferences"" && osascript -e ""tell application \""System Preferences\"" to reveal pane \""Bluetooth\"""""
+"### System:
+macOS
+
+### Human:
+Open the Network settings
+
+### Assistant:
+open -a ""System Preferences"" && osascript -e ""tell application \""System Preferences\"" to reveal pane \""Network\"""""
+"### System:
+macOS
+
+### Human:
+Open the Display settings
+
+### Assistant:
+open -a ""System Preferences"" && osascript -e ""tell application \""System Preferences\"" to reveal pane \""Displays\"""""
+"### System:
+macOS
+
+### Human:
+Open the Sound settings
+
+### Assistant:
+open -a ""System Preferences"" && osascript -e ""tell application \""System Preferences\"" to reveal pane \""Sound\"""""
+"### System:
+macOS
+
+### Human:
+Open the Privacy settings
+
+### Assistant:
+open -a ""System Preferences"" && osascript -e ""tell application \""System Preferences\"" to reveal pane \""Security & Privacy\"""""
+"### System:
+macOS
+
+### Human:
+Open the Software Update settings
+
+### Assistant:
+open -a ""System Preferences"" && osascript -e ""tell application \""System Preferences\"" to reveal pane \""Software Update\"""""
+"### System:
+macOS
+
+### Human:
+Open the Devices settings
+
+### Assistant:
+open -a ""System Preferences"" && osascript -e ""tell application \""System Preferences\"" to reveal pane \""Bluetooth\"""""
+"### System:
+macOS
+
+### Human:
+Open the Language & Region settings
+
+### Assistant:
+open -a ""System Preferences"" && osascript -e ""tell application \""System Preferences\"" to reveal pane \""Language & Region\"""""
+"### System:
+macOS
+
+### Human:
+Open the Security & Privacy settings
+
+### Assistant:
+open -a ""System Preferences"" && osascript -e ""tell application \""System Preferences\"" to reveal pane \""Security & Privacy\"""""
+"### System:
+macOS
+
+### Human:
+Open the Accessibility settings
+
+### Assistant:
+open -a ""System Preferences"" && osascript -e ""tell application \""System Preferences\"" to reveal pane \""Accessibility\"""""
+"### System:
+Linux
+
+### Human:
+Open the Network settings
+
+### Assistant:
+gnome-control-center network"
+"### System:
+Linux
+
+### Human:
+Open the Display settings
+
+### Assistant:
+gnome-control-center display"
+"### System:
+Linux
+
+### Human:
+Open the Sound settings
+
+### Assistant:
+gnome-control-center sound"
+"### System:
+Linux
+
+### Human:
+Open the Privacy settings
+
+### Assistant:
+gnome-control-center privacy"
+"### System:
+Linux
+
+### Human:
+Open the Software & Updates settings
+
+### Assistant:
+software-properties-gtk"
+"### System:
+Linux
+
+### Human:
+Open the Bluetooth settings
+
+### Assistant:
+gnome-control-center bluetooth"
+"### System:
+Linux
+
+### Human:
+Open the Devices settings
+
+### Assistant:
+gnome-control-center devices"
+"### System:
+Linux
+
+### Human:
+Open the Language & Region settings
+
+### Assistant:
+gnome-control-center region"
+"### System:
+Linux
+
+### Human:
+Open the Security & Privacy settings
+
+### Assistant:
+gnome-control-center security"
+"### System:
+Linux
+
+### Human:
+Open the Accessibility settings
+
+### Assistant:
+gnome-control-center universal-access"
+"### System:
+Windows
+
+### Human:
+Open the Power Options
+
+### Assistant:
+control powercfg.cpl"
+"### System:
+Windows
+
+### Human:
+Open the System Properties
+
+### Assistant:
+sysdm.cpl"
+"### System:
+Windows
+
+### Human:
+Open the Firewall settings
+
+### Assistant:
+firewall.cpl"
+"### System:
+Windows
+
+### Human:
+Open the Add or Remove Programs
+
+### Assistant:
+appwiz.cpl"
+"### System:
+Windows
+
+### Human:
+Open the Network Connections
+
+### Assistant:
+ncpa.cpl"
+"### System:
+macOS
+
+### Human:
+Open the Energy Saver settings
+
+### Assistant:
+open -a ""System Preferences"" && osascript -e ""tell application \""System Preferences\"" to reveal pane \""Energy Saver\"""""
+"### System:
+macOS
+
+### Human:
+Open the Keyboard settings
+
+### Assistant:
+open -a ""System Preferences"" && osascript -e ""tell application \""System Preferences\"" to reveal pane \""Keyboard\"""""
+"### System:
+macOS
+
+### Human:
+Open the Mouse settings
+
+### Assistant:
+open -a ""System Preferences"" && osascript -e ""tell application \""System Preferences\"" to reveal pane \""Mouse\"""""
+"### System:
+macOS
+
+### Human:
+Open the Trackpad settings
+
+### Assistant:
+open -a ""System Preferences"" && osascript -e ""tell application \""System Preferences\"" to reveal pane \""Trackpad\"""""
+"### System:
+macOS
+
+### Human:
+Open the Printers & Scanners settings
+
+### Assistant:
+open -a ""System Preferences"" && osascript -e ""tell application \""System Preferences\"" to reveal pane \""Print & Fax\"""""
+"### System:
+Linux
+
+### Human:
+Open the Power settings
+
+### Assistant:
+gnome-control-center power"
+"### System:
+Linux
+
+### Human:
+Open the System Information
+
+### Assistant:
+gnome-control-center info"
+"### System:
+Linux
+
+### Human:
+Open the Keyboard settings
+
+### Assistant:
+gnome-control-center keyboard"
+"### System:
+Linux
+
+### Human:
+Open the Mouse & Touchpad settings
+
+### Assistant:
+gnome-control-center mouse"
+"### System:
+Linux
+
+### Human:
+Open the Printers settings
+
+### Assistant:
+gnome-control-center printers"
+"### System:
+Linux
+
+### Human:
+Open Gedit
+
+### Assistant:
+gnome-control-center"
+"### System:
+Windows
+
+### Human:
+Open Snipping Tool
+
+### Assistant:
+start ms-settings:windowsupdate"
+"### System:
+Linux
+
+### Human:
+Open Photos app
+
+### Assistant:
+nautilus"
+"### System:
+macOS
+
+### Human:
+Open Activity Monitor
+
+### Assistant:
+open -a Finder"
+"### System:
+Linux
+
+### Human:
+Open Gedit
+
+### Assistant:
+gnome-disks"
+"### System:
+Windows
+
+### Human:
+Open Snipping Tool
+
+### Assistant:
+start explorer.exe"
+"### System:
+Windows
+
+### Human:
+Open Command Prompt
+
+### Assistant:
+start cmd.exe"
+"### System:
+Linux
+
+### Human:
+Open Eye of GNOME
+
+### Assistant:
+gnome-software"
+"### System:
+Linux
+
+### Human:
+Open System Preferences Security & Privacy
+
+### Assistant:
+gnome-photos"
+"### System:
+Windows
+
+### Human:
+Check system updates
+
+### Assistant:
+start wordpad.exe"
+"### System:
+macOS
+
+### Human:
+Open Calendar app
+
+### Assistant:
+open -a ""System Preferences"""
+"### System:
+Windows
+
+### Human:
+Open Mail app
+
+### Assistant:
+start ms-settings:windowsdefender"
+"### System:
+macOS
+
+### Human:
+Open Disk Utility
+
+### Assistant:
+open -a Terminal"
+"### System:
+Linux
+
+### Human:
+Check for system updates
+
+### Assistant:
+gnome-control-center security"
+"### System:
+macOS
+
+### Human:
+Open System Preferences Security & Privacy
+
+### Assistant:
+open -a ""App Store"""
+"### System:
+Windows
+
+### Human:
+Open Notepad
+
+### Assistant:
+start snippingtool.exe"
+"### System:
+Windows
+
+### Human:
+Open Snipping Tool
+
+### Assistant:
+start ms-windows-store:"
+"### System:
+macOS
+
+### Human:
+Open Finder
+
+### Assistant:
+open -a TextEdit"
+"### System:
+Linux
+
+### Human:
+Open Terminal
+
+### Assistant:
+gnome-software"
+"### System:
+Linux
+
+### Human:
+Open LibreOffice Writer
+
+### Assistant:
+gnome-control-center"
+"### System:
+Windows
+
+### Human:
+Open Task Manager
+
+### Assistant:
+start outlookmail:"
+"### System:
+macOS
+
+### Human:
+Open Activity Monitor
+
+### Assistant:
+open -a Music"
+"### System:
+macOS
+
+### Human:
+Open System Preferences
+
+### Assistant:
+open -a Finder"
+"### System:
+Windows
+
+### Human:
+Open File Explorer
+
+### Assistant:
+start powershell.exe"
+"### System:
+macOS
+
+### Human:
+Open Mail app
+
+### Assistant:
+system_profiler"
+"### System:
+Linux
+
+### Human:
+Open Software Center
+
+### Assistant:
+gnome-photos"
+"### System:
+Windows
+
+### Human:
+Open File Explorer
+
+### Assistant:
+start calc.exe"
+"### System:
+Windows
+
+### Human:
+Open Task Manager
+
+### Assistant:
+start cleanmgr.exe"
+"### System:
+Linux
+
+### Human:
+Open Videos app
+
+### Assistant:
+gnome-calendar"
+"### System:
+Windows
+
+### Human:
+Open Control Panel
+
+### Assistant:
+start ms-settings:"
+"### System:
+macOS
+
+### Human:
+Open TV app
+
+### Assistant:
+open -a Grab"
+"### System:
+macOS
+
+### Human:
+Open Calendar app
+
+### Assistant:
+open -a Calendar"
+"### System:
+macOS
+
+### Human:
+Open Mail app
+
+### Assistant:
+open -a Calculator"
+"### System:
+macOS
+
+### Human:
+Open Terminal
+
+### Assistant:
+open -a Terminal"
+"### System:
+Linux
+
+### Human:
+Open Disk Utility
+
+### Assistant:
+evolution"
+"### System:
+Linux
+
+### Human:
+Search for files
+
+### Assistant:
+gnome-software"
+"### System:
+Windows
+
+### Human:
+Open Task Manager
+
+### Assistant:
+start control.exe"
+"### System:
+Linux
+
+### Human:
+Open Calendar app
+
+### Assistant:
+gnome-screenshot"
+"### System:
+Linux
+
+### Human:
+Open System Monitor
+
+### Assistant:
+rhythmbox"
+"### System:
+Windows
+
+### Human:
+Open Calendar app
+
+### Assistant:
+start cmd.exe"
+"### System:
+Linux
+
+### Human:
+Open System Settings
+
+### Assistant:
+gnome-photos"
+"### System:
+macOS
+
+### Human:
+Open Mail app
+
+### Assistant:
+open -a Safari"
+"### System:
+Linux
+
+### Human:
+Open Mail app
+
+### Assistant:
+nautilus"
+"### System:
+Windows
+
+### Human:
+Open Disk Cleanup
+
+### Assistant:
+start movies-tv:"
+"### System:
+Linux
+
+### Human:
+Open Screenshot tool
+
+### Assistant:
+apt-get update"
+"### System:
+Windows
+
+### Human:
+Open Mail app
+
+### Assistant:
+start outlookcal:"
+"### System:
+Windows
+
+### Human:
+Open Calendar app
+
+### Assistant:
+start control.exe"
+"### System:
+Linux
+
+### Human:
+Open Firefox browser
+
+### Assistant:
+eog"
+"### System:
+Windows
+
+### Human:
+Open Calculator
+
+### Assistant:
+start snippingtool.exe"
+"### System:
+Linux
+
+### Human:
+Open System Monitor
+
+### Assistant:
+gnome-photos"
+"### System:
+Linux
+
+### Human:
+Open Software Center
+
+### Assistant:
+apt-get update"
+"### System:
+macOS
+
+### Human:
+Open Preview
+
+### Assistant:
+open -a ""Security & Privacy"""
+"### System:
+Windows
+
+### Human:
+Open Movies & TV app
+
+### Assistant:
+start muziek:"
+"### System:
+Windows
+
+### Human:
+Open PowerShell
+
+### Assistant:
+start powershell.exe"
+"### System:
+Windows
+
+### Human:
+Open Snipping Tool
+
+### Assistant:
+start outlookmail:"
