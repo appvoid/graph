@@ -8,3 +8,5 @@ it comes with two main files:
 
 - graph.py: to train your models using pytorch
 - graph.js: to use your model on web browsers
+
+this is a simple demo for people to have a glance on how to train and small model to train small model on predicting the next token.
